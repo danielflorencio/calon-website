@@ -1,0 +1,36 @@
+nav{
+    width: 100vw;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    position: fixed;
+    background-color: #fff;
+}
+nav ul {
+    display: flex;
+    gap: 1.7rem;
+    list-style: none;
+}
+nav ul li {
+    font-size: 0.85rem;
+}
+
+button{
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 'bold';
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border-width: 1px;
+    border-color: #f51767;
+    background-color: #fff;
+    color: #f51767;
+}
+
+button:hover{
+    color: #fff;
+    background-color: #f51767;
+    cursor: pointer;
+}
