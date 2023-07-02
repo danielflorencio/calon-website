@@ -1,4 +1,4 @@
-import HeroSection from '@/sectionLayouts/HeroSection'
+import HeroSection from '@/sectionLayouts/HeroSection/HeroSection'
 import styles from './page.module.css'
 
 export default function Home() {

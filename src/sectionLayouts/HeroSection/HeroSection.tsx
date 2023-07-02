@@ -1,5 +1,4 @@
 import './styles.css'
-import { barlow } from '@/app/fonts'
 export default function HeroSection(){
     return(
         <section className="hero-section">
