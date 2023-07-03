@@ -8,6 +8,7 @@
     flex-direction: column;
     width: 100vw;
     min-height: 100vh;
+    background: linear-gradient(to bottom, white, rgb(231, 231, 231));
 }
 .h1-title, .h2-title{
     text-align: center;

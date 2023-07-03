@@ -35,3 +35,19 @@ button:hover{
     background-color: #f51767;
     cursor: pointer;
 }
+
+.open-close-nav-button{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+
+@media (max-width: 767px) {
+    
+}
+@media (min-width: 767px) {
+    
+}

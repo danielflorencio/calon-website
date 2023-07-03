@@ -1,15 +1,17 @@
 .services-section{
     width: 100vw;
     display: flex;
-    /* justify-content: space-around; */
     padding: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    background-color: #4c0ffb;
 }
 .services-section-title{
     text-align: center;
+    color: #fff;
+    font-size: 2rem;
 }
 .cards-container{
     display: flex;

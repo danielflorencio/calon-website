@@ -1,5 +1,8 @@
+'use client'
 import './styles.css'
+
 export default function Navbar(){
+
     return(
         <nav className='nav'>
             <ul>
@@ -7,7 +10,7 @@ export default function Navbar(){
                 <li><a>Serviços</a></li>
                 <li><a>Perguntas frequentes</a></li>
             </ul>
-            <button>Agende uma reunião</button> 
+            <button>Agende uma reunião</button>
         </nav>
     )
 }

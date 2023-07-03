@@ -16,6 +16,16 @@ const Cards = [
         icon: 'Icon',
         cardTitle: 'Card Title',
         cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+    },
+    {
+        icon: 'Icon',
+        cardTitle: 'Card Title',
+        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+    },
+    {
+        icon: 'Icon',
+        cardTitle: 'Card Title',
+        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
     }
 ]
 
