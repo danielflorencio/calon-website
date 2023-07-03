@@ -7,17 +7,20 @@
     background-color: #fff;
     padding: 1rem;
     gap: 1rem;
+    border: 1px solid #f51767;;
 }
 .benefit-icon-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .title-and-text-container{
-
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
 }
 .benefit-block-title{
-
+    color: #f51767;
 }
 .benefit-block-description{
 

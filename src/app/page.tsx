@@ -5,6 +5,7 @@ import ServicesSection from '@/sectionLayouts/ServicesSection/ServicesSection'
 import NavbarContainer from '@/components/Navbar/NavbarContainer'
 import WhoIsFor from '@/sectionLayouts/WhoIsFor/WhoIsFor'
 import NewServicesSection from '@/sectionLayouts/NewServicesSection/NewServicesSection'
+import StepByStepSection from '@/sectionLayouts/StepByStepSection/StepByStepSection'
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
       <NavbarContainer/>
       {/* <Navbar/> */}
       <HeroSection/>
-      <ServicesSection/>
-      <WhoIsFor/>
       <NewServicesSection/>
+      <WhoIsFor/>
+      <ServicesSection/>
+      <StepByStepSection/>
     </main>
   )
 }

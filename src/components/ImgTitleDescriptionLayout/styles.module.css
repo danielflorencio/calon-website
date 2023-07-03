@@ -1,0 +1,46 @@
+.greaterContainer{
+    width: 1000px;
+    border-radius: 16px;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+}
+.leftRightPositioning{
+    flex-direction: row;
+}
+.rightLeftPositioning{
+    flex-direction: row-reverse;
+}
+.imgContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 350px;
+    height: 350px;
+}
+.textContainer{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.textContainer h3{
+    font-size: 1.4rem2;
+}
+@media (max-width: 767px) {
+    .greaterContainer{
+        border: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
+        padding: 0.5rem;
+    }
+    .textContainer{
+        max-width: 100%;
+    }
+}

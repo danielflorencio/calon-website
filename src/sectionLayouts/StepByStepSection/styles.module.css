@@ -1,0 +1,16 @@
+.stepByStepSection{
+    background-color: #ebebeb;
+    min-height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+@media (max-width: 767px) {
+    .stepByStepSection{
+        padding: 1rem 0;
+    }
+}

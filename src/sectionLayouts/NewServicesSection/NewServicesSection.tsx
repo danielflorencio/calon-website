@@ -8,14 +8,14 @@ export default function(){
             {/* <ServiceCard/> */}
             <h2 className='new-services-section-title'>Título da seção.</h2>
             <div className='benefits-container'>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
-            <IconDescriptionTitleComponent icon={<BiMoney size={28}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
+            <IconDescriptionTitleComponent icon={<BiMoney color='#f51767' size={38}/>} title='Teste' description='Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste'/>
             </div>
         </section>
     )
