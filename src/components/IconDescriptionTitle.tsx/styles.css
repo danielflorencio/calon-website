@@ -1,0 +1,24 @@
+.benefit-block{
+    min-width: 300px;
+    max-width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 1rem;
+    gap: 1rem;
+}
+.benefit-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-and-text-container{
+
+}
+.benefit-block-title{
+
+}
+.benefit-block-description{
+
+}

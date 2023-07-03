@@ -1,0 +1,20 @@
+.new-services-section{
+    width: 100vw;
+    background: #f6f6fb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    gap: 1.5rem;
+}
+.new-services-section-title{
+    font-size: 2rem;
+}
+.benefits-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
