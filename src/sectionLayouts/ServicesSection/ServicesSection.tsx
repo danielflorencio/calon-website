@@ -1,7 +1,31 @@
+import CardComponent from '@/components/CardComponent/CardComponent'
 import './styles.css'
+
+const Cards = [
+    {
+        icon: 'Icon',
+        cardTitle: 'Card Title',
+        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+    }, 
+    {
+        icon: 'Icon',
+        cardTitle: 'Card Title',
+        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+    },
+    {
+        icon: 'Icon',
+        cardTitle: 'Card Title',
+        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+    }
+]
+
 export default function ServicesSection(){
     return(
-        <section>
+        <section className='services-section'>
+            <h2 className='services-section-title'>Section 2 title.</h2>
+            <div className='cards-container'>
+                {Cards.map(card => (<CardComponent icon={card.icon} cardText={card.cardText} cardTitle={card.cardTitle}/>))}
+            </div>
         </section>
     )
 }

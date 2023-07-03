@@ -1,0 +1,25 @@
+.card-container{
+    width: 350px;
+    padding: 2rem 1.5rem;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.icon-container{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: #ccc;
+    display: grid;
+    place-items: center;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-text{
+
+}

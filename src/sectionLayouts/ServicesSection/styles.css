@@ -1,0 +1,20 @@
+.services-section{
+    width: 100vw;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.services-section-title{
+    text-align: center;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
