@@ -4,35 +4,31 @@ import './styles.css'
 const Cards = [
     {
         icon: 'Icon',
-        cardTitle: 'Card Title',
+        cardTitle: 'Gestão de tráfego e geração de Leads.',
         cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
     }, 
     {
         icon: 'Icon',
-        cardTitle: 'Card Title',
+        cardTitle: 'Desenvolvimento de páginas e websites atrativos.',
         cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
     },
     {
         icon: 'Icon',
-        cardTitle: 'Card Title',
+        cardTitle: 'Copywriting e escrita persuasiva.',
         cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
     },
     {
         icon: 'Icon',
-        cardTitle: 'Card Title',
+        cardTitle: 'Design gráfico e mídias sociais.',
         cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
     },
-    {
-        icon: 'Icon',
-        cardTitle: 'Card Title',
-        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
-    }
 ]
 
 export default function ServicesSection(){
     return(
         <section className='services-section'>
-            <h2 className='services-section-title'>Section 2 title.</h2>
+            <h2 className='services-section-title'>Conheça os nossos serviços e como eles podem te ajudar.</h2>
+            <h3 className=''>São eles que irão te levar para o próximo patamar</h3>
             <div className='cards-container'>
                 {Cards.map(card => (<CardComponent icon={card.icon} cardText={card.cardText} cardTitle={card.cardTitle}/>))}
             </div>
