@@ -7,6 +7,7 @@ import styles from './styles.module.css'
 export default function StepByStepSection(){
     return(
         <section className={styles.stepByStepSection}>
+            <h2 className={styles.sectionTitle}>O passo-a-passo da evolução do seu negócio está aqui.</h2>
             <ImgTitleDescriptionLayout 
             alt='' 
             img={img1} 
@@ -21,7 +22,7 @@ export default function StepByStepSection(){
             alt='' 
             img={img2} 
             title='Passo 2 - Execução e faturamento.' 
-            style='left-right' 
+            style='right-left' 
             paragraphs={
                 ['Se fechado o contrato, aqui é onde colocaremos a sua empresa para finalmente receber mais clientes.', 
                 'Coletaremos os dados para criar o seu site persuasivo, fazer funcionar as campanhas de anúncios, e aumentar o seu faturamento.']}/>
