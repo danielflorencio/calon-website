@@ -1,5 +1,5 @@
 import CardComponent from '@/components/CardComponent/CardComponent'
-import './styles.css'
+import styles from './styles.module.css'
 
 const Cards = [
     {
@@ -26,10 +26,10 @@ const Cards = [
 
 export default function ServicesSection(){
     return(
-        <section className='services-section'>
-            <h2 className='services-section-title'>Conheça os nossos serviços e como eles podem te ajudar.</h2>
-            <h3 className=''>São eles que irão te levar para o próximo patamar</h3>
-            <div className='cards-container'>
+        <section className={styles.sectionContainer}>
+            <h2 className={styles.sectionTitle}>Conheça os nossos serviços e como eles podem te ajudar.</h2>
+            <h3 className={styles.sectionSubtitle}>São eles que irão te levar para o próximo patamar</h3>
+            <div className={styles.cardsContainer}>
                 {Cards.map(card => (<CardComponent icon={card.icon} cardText={card.cardText} cardTitle={card.cardTitle}/>))}
             </div>
         </section>

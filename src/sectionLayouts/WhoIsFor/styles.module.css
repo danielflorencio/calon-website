@@ -1,37 +1,40 @@
-.who-is-for-section{
+.sectionContainer{
     width: 100vw;
     padding: 3rem;
 }
-.who-is-for-title{
+.sectionTitle{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
 }
-.cards-container{
-    display: 'flex';
+.cardsContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
-.comparing-card-container{
+.comparingCardContainer{
     max-width: 460px;
     border: 2px solid #f51767;
     padding: 1.6rem;
     border-radius: 16px;
 }
-.comparing-card-title{
+.comparingCardTitle{
     margin-bottom: 1.8rem;
     font-size: 1.2rem;
 }
-.comparing-card-container ul {
+.comparingCardContainer ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
 }
-.comparing-card-is-for-title{
+.comparingCardIsForTitle{
     color: #f51767;;
 }
-.comparing-card-container li{
+.comparingCardContainer li{
     display: flex;
 }
-.check-icon-container{
+.checkIconContainer{
     margin-right: 0.6rem;
 }

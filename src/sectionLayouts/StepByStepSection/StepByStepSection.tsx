@@ -8,6 +8,7 @@ export default function StepByStepSection(){
     return(
         <section className={styles.stepByStepSection}>
             <h2 className={styles.sectionTitle}>O passo-a-passo da evolução do seu negócio está aqui.</h2>
+            <h3>Subtitle.</h3>
             <ImgTitleDescriptionLayout 
             alt='' 
             img={img1} 
