@@ -8,12 +8,17 @@ export default function Form(){
     const [phone, setPhone] = useState<string>();
     const [message, setMessage] = useState<string>();
 
+    const handleSubmit = async () => {
+
+    }
+
     return(
-        <form className={styles.form}>
+        <form onSubmit={handleSubmit} className={styles.form}>
             <input type='text' placeholder='Email' value={email} onChange={e => setEmail(e.target.value)}></input>
             <input type='text' placeholder='Nome completo' value={name} onChange={e => setName(e.target.value)}></input>
             <input type='text' placeholder='Telefone' value={phone} onChange={e => setPhone(e.target.value)}></input>
             <input type='text' placeholder='Mensagem' value={message} onChange={e => setMessage(e.target.value)}></input>
+            <button type='submit' className={styles.button}>Agendar reunião agora.</button>
         </form>
     )
 }

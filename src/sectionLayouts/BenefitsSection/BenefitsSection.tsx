@@ -11,7 +11,7 @@ import {BsFillBarChartLineFill} from 'react-icons/bs'
 import IconDescriptionTitleComponent from '@/components/IconDescriptionTitle.tsx/IconDescriptionTitleComponent';
 export default function BenefitsSection(){
     return(
-        <section className={styles.sectionContainer}>
+        <section id='benefits' className={styles.sectionContainer}>
             <h2 className={styles.sectionTitle}>UM MARKETING BEM-FEITO PODE TE TRAZER TODOS ESSES BENEFÍCIOS.</h2>
             <h3 className={styles.sectionSubtitle}>Agende uma reunião e descubra como podemos te ajudar a consegui-los.</h3>
             <div className={styles.benefitsContainer}>

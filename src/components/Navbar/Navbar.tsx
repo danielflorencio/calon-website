@@ -1,16 +1,20 @@
 'use client'
-import './styles.css'
-
+import styles from './styles.module.css'
+import Image from 'next/image'
+import logo from '../../../public/salus-black-logo.png'
 export default function Navbar(){
 
     return(
-        <nav className='nav'>
-            <ul>
-                <li><a>Benefícios</a></li>
-                <li><a>Serviços</a></li>
-                <li><a>Perguntas frequentes</a></li>
+        <nav className={styles.nav}>
+            <Image src={logo.src} alt='logo' width={110} height={55}/>
+            <div className={styles.rightAlignContainer}>
+            <ul className={styles.ul}>
+                <li className={styles.li}><a href='#benefits'>Benefícios</a></li>
+                <li className={styles.li}><a href='#services'>Serviços</a></li>
+                <li className={styles.li}><a>Perguntas frequentes</a></li>
             </ul>
-            <button>Agende uma reunião</button>
+            <button className={styles.button}>Agende uma reunião</button>
+            </div>
         </nav>
     )
 }

@@ -1,5 +1,4 @@
 'use client'
-
 import { useMediaQuery } from "react-responsive"
 import MobileNavbar from "./MobileNavbar"
 import Navbar from "./Navbar"

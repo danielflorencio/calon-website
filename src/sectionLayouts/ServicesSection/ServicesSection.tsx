@@ -26,11 +26,11 @@ const Cards = [
 
 export default function ServicesSection(){
     return(
-        <section className={styles.sectionContainer}>
+        <section id='services' className={styles.sectionContainer}>
             <h2 className={styles.sectionTitle}>Conheça os nossos serviços e como eles podem te ajudar.</h2>
             <h3 className={styles.sectionSubtitle}>São eles que irão te levar para o próximo patamar</h3>
             <div className={styles.cardsContainer}>
-                {Cards.map(card => (<CardComponent icon={card.icon} cardText={card.cardText} cardTitle={card.cardTitle}/>))}
+                {Cards.map((card, index) => (<CardComponent key={index} icon={card.icon} cardText={card.cardText} cardTitle={card.cardTitle}/>))}
             </div>
         </section>
     )
