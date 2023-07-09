@@ -1,26 +1,30 @@
 .sectionContainer{
     width: 100vw;
     display: flex;
-    padding: 3rem;
+    padding: 3rem 0;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    background-color: #4c0ffb;
+    /* background-color: #ff7950; */
+    background-color: #000;
 }
 .sectionTitle{
     text-align: center;
     color: #fff;
     font-size: 2rem;
+    max-width: 90%;
 }
 .sectionSubtitle{
     text-align: center;
+    color: #fff;
+    max-width: 90%;
 }
 .cardsContainer{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    max-width: 90%;
     flex-wrap: wrap;
     gap: 2rem;
 }

@@ -1,4 +1,4 @@
-.benefit-block{
+.benefitBlock{
     min-width: 300px;
     max-width: 400px;
     border-radius: 10px;
@@ -7,21 +7,20 @@
     background-color: #fff;
     padding: 1rem;
     gap: 1rem;
-    border: 1px solid #f51767;;
+    border: 1px solid #ff410d;
 }
-.benefit-icon-container{
+.benefitIconContainer{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
-.title-and-text-container{
+.titleAndTextContainer{
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
 }
-.benefit-block-title{
-    color: #f51767;
+.benefitBlockTitle{
+    color: #ff410d;
 }
-.benefit-block-description{
+.benefitBlockDescription{
 
 }

@@ -1,12 +1,12 @@
 'use client'
 import styles from './styles.module.css'
 import Image from 'next/image'
-import logo from '../../../public/salus-black-logo.png'
+import logo from '../../../public/bg-branco.png'
 export default function Navbar(){
 
     return(
         <nav className={styles.nav}>
-            <Image src={logo.src} alt='logo' width={110} height={55}/>
+            <Image src={logo.src} alt='logo' width={110} height={30}/>
             <div className={styles.rightAlignContainer}>
             <ul className={styles.ul}>
                 <li className={styles.li}><a href='#benefits'>Benefícios</a></li>

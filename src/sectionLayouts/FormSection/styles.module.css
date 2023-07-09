@@ -1,5 +1,6 @@
 .section{
-    background-color: #4c0ffb;
+    /* background-color: #4c0ffb; */
+    background-color: #ff7950;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -8,11 +9,29 @@
     padding-bottom: 3rem;
 }
 .title{
+    margin-top: 2rem;
     font-size: 2rem;
+    font-family: var(--font-barlow);
+    letter-spacing: 0.1rem;
+    font-weight: 700;
     margin: 1rem 0;
     color: white;
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 1.5rem;
 }
 .subtitle{
     margin-bottom: 1rem;
     color: white;
+    font-family: var(--font-barlow);
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 90%;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .title{
+        font-size: 1.5rem;
+        max-width: 90%;
+    }
 }

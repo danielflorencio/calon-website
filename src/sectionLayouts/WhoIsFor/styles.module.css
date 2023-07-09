@@ -15,7 +15,7 @@
 }
 .comparingCardContainer{
     max-width: 460px;
-    border: 2px solid #f51767;
+    border: 2px solid #ff410d;
     padding: 1.6rem;
     border-radius: 16px;
 }
@@ -30,7 +30,7 @@
     gap: 1.4rem;
 }
 .comparingCardIsForTitle{
-    color: #f51767;;
+    color: #ff410d;
 }
 .comparingCardContainer li{
     display: flex;

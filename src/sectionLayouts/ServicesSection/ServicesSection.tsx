@@ -1,26 +1,37 @@
+import {ReactElement} from 'react'
 import CardComponent from '@/components/CardComponent/CardComponent'
+import {MdComputer} from 'react-icons/md'
+import {BsPen} from 'react-icons/bs'
+import {BiBrain} from 'react-icons/bi'
+import {AiOutlineInstagram} from 'react-icons/ai'
 import styles from './styles.module.css'
 
-const Cards = [
+type CardsType = {
+    icon: ReactElement,
+    cardTitle: string,
+    cardText: string
+}
+
+const Cards: CardsType[] = [
     {
-        icon: 'Icon',
+        icon: <BiBrain size={28}/>,
         cardTitle: 'Gestão de tráfego e geração de Leads.',
-        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+        cardText: 'Com o Tráfego Pago e a veiculação de anúncios online, você terá tudo o que precisa para atrair centenas e até milhares de clientes para os seus produtos todos os dias.',
     }, 
     {
-        icon: 'Icon',
+        icon: <MdComputer size={28}/>,
         cardTitle: 'Desenvolvimento de páginas e websites atrativos.',
-        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+        cardText: 'Seu site é a vitrine do seu negócio. Com um site bem-feito, você passa seriedade e gera muito mais confiança nos seus clientes para que eles comprem de você.  ',
     },
     {
-        icon: 'Icon',
+        icon: <BsPen size={28}/>,
         cardTitle: 'Copywriting e escrita persuasiva.',
-        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+        cardText: 'Não adianta produtos bonitos, se você não convencer seus clientes de que eles são úteis. Na Calon, nós usamos o poder da escrita persuasiva para multiplicar suas vendas.',
     },
     {
-        icon: 'Icon',
+        icon: <AiOutlineInstagram size={28}/>,
         cardTitle: 'Design gráfico e mídias sociais.',
-        cardText: 'Card Text Card Text Card Text Card Text Card Text Card Text ',
+        cardText: 'Todas as empresas precisam de materiais publicitários para fazer seu marketing e mostrar o que tem a oferecer Aqui, nós também suprimos essa necessidade.',
     },
 ]
 

@@ -16,8 +16,8 @@
     color: #fff;
     padding: 0.8rem 1.2rem;
     border-width: 1px;
-    border-color: #f51767;
-    background-color: #f51767;;
+    border-color: red;
+    background-color: red;;
 }
 .button:hover{
     color: #f51767;

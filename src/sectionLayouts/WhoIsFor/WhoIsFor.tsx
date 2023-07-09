@@ -11,19 +11,19 @@ export default function WhoIsFor(){
                     <div>
                         <ul>
                             <li>
-                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#f51767' size={28}/></div>
+                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#ff410d' size={28}/></div>
                                 <p>Se você está cansado de quebrar a cabeça com o marketing e quer deixar essa responsabilidade nas mãos de verdadeiros profissionais;</p>
                             </li>
                             <li>
-                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#f51767' size={28}/></div>
+                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#ff410d' size={28}/></div>
                                 <p>Se você tem um negócio digital ou físico, e quer dar os primeiros passos para começar a crescê-lo através das mídias e redes sociais;</p>  
                             </li>
                             <li>
-                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#f51767' size={28}/></div>
+                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#ff410d' size={28}/></div>
                                 <p>Se o seu negócio já tem resultados, e você sabe que um bom marketing é essencial para alavancá-lo para resultados ainda maiores;</p>
                             </li>
                             <li>
-                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#f51767' size={28}/></div>
+                                <div className={styles.checkIconContainer}><BiSolidCheckCircle color='#ff410d' size={28}/></div>
                                 <p>Se você é um empresário com fome de sucesso, e deseja aumentar ainda mais o faturamento do seu negócio;</p>
                             </li>   
                         </ul>
