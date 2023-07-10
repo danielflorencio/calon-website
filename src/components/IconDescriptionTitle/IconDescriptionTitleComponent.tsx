@@ -7,7 +7,7 @@ type Props = {
     description: string
 }
 
-export default function({icon, title, description}: Props){
+export default function IconDescriptionTitleComponent({icon, title, description}: Props){
     return(
         <div className={styles.benefitBlock}>                
             <div className={styles.benefitIconContainer}>

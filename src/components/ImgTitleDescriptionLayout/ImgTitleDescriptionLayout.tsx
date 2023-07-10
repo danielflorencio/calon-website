@@ -19,7 +19,7 @@ export default function ImgTitleDescriptionLayout({img, alt, title, style, parag
             </div>
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
-                {paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+                {paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
                 {/* <p>Primeiro nós iremos começar do básico: uma reunião gratuita onde iremos analisar o seu negócio e o que você precisa para fazê-lo crescer.</p> */}
                 {/* <p>Aqui nós iremos decidir se será melhor realizar um contrato recorrente de prestação de serviços, ou se um serviço específico será suficiente para você.</p> */}
                 {/* <p><i><strong>P.S.:</strong> Muitos clientes acabam recebendo praticamente uma consultoria gratuita nesta etapa.</i></p> */}

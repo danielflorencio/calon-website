@@ -1,12 +1,8 @@
-import ServiceCard from '@/components/ServiceCard/ServiceCard'
 import styles from './styles.module.css'
-import {BiMoney} from 'react-icons/bi';
-import { AiFillStar } from 'react-icons/ai';
 import {FaTicketAlt} from 'react-icons/fa';
 import {AiOutlineCreditCard} from 'react-icons/ai';
 import {AiOutlineCalendar} from 'react-icons/ai';
 import {BiHappyBeaming} from 'react-icons/bi';
-import {MdOutlineHealthAndSafety} from 'react-icons/md';
 import {BsFillBarChartLineFill} from 'react-icons/bs'
 import IconDescriptionTitleComponent from '@/components/IconDescriptionTitle/IconDescriptionTitleComponent';
 export default function BenefitsSection(){
