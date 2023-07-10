@@ -2,17 +2,25 @@
     background-color: #f6f6fb;
     min-height: 20vh;
     width: 100vw;
+    /* gap: 3rem; */
+    padding: 2rem 0;
+}
+.stepByStepSection, .containerPositioner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.containerPositioner{
     gap: 3rem;
-    padding: 2rem;
 }
 .sectionTitle{
     font-size: 2rem;
     margin: 1rem 0;
     text-align: center;
+}
+.sectionSubtitle{
+    margin-bottom: 3rem;
 }
 @media (max-width: 767px) {
     .stepByStepSection{

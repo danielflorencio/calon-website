@@ -16,7 +16,7 @@ export default function MobileNavbar(){
     }
 
     return(
-        <nav className={styles.navMobile}>
+        <div className={styles.navMobile}>
             <div className={styles.mobileNavHeader}>
                 <Image src={logo.src} alt='logo' width={100} height={26}/>
                 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'center'}}>
@@ -31,6 +31,6 @@ export default function MobileNavbar(){
                     <li className={styles.mobileLi}>Perguntas Frequentes</li>
                 </ul>
             )}
-        </nav>
+        </div>
     )
 }

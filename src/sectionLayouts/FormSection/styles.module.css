@@ -1,11 +1,11 @@
 .section{
-    /* background-color: #4c0ffb; */
     background-color: #ff7950;
     width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 1.5rem;
     padding-bottom: 3rem;
 }
 .title{

@@ -4,7 +4,7 @@ import {MdOutlineCancel} from 'react-icons/md'
 export default function WhoIsFor(){
     return(
         <section className={styles.sectionContainer}>
-            <h2 className={styles.sectionTitle}><strong>Para Quem São Os Serviços da Salus?</strong></h2>
+            <h2 className={styles.sectionTitle}><strong>Para Quem São Os Serviços da Calon?</strong></h2>
             <div className={styles.cardsContainer}>
                 <div className={styles.comparingCardContainer}>
                     <h3 className={`${styles.comparingCardTitle} ${styles.comparingCardIsForTitle}`}><strong>Nosso serviços SÃO para você se:</strong></h3>

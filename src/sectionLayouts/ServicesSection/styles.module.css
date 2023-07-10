@@ -6,8 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    /* background-color: #ff7950; */
+    /* gap: 3rem; */
     background-color: #000;
 }
 .sectionTitle{
@@ -15,11 +14,13 @@
     color: #fff;
     font-size: 2rem;
     max-width: 90%;
+    margin-bottom: 1.5rem;
 }
 .sectionSubtitle{
     text-align: center;
     color: #fff;
     max-width: 90%;
+    margin-bottom: 3.5rem;
 }
 .cardsContainer{
     display: flex;

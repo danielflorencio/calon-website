@@ -1,5 +1,4 @@
 import {ReactElement } from 'react'
-import { IconType } from 'react-icons'
 import styles from './styles.module.css'
 type CardComponentProps = {
     icon: ReactElement,

@@ -11,11 +11,12 @@
 }
 .sectionTitle{
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.4rem;
     text-align: center;
 }
 .sectionSubtitle{
     text-align: center;
+    margin-bottom: 1.6rem;
 }
 .benefitsContainer{
     display: flex;

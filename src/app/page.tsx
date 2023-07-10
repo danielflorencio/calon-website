@@ -7,19 +7,21 @@ import StepByStepSection from '@/sectionLayouts/StepByStepSection/StepByStepSect
 import BenefitsSection from '@/sectionLayouts/BenefitsSection/BenefitsSection'
 import FormSection from '@/sectionLayouts/FormSection/FormSection'
 
-
 // New Collor Palette 
 // #EDD70C 
 // #F7C30C
 // #E09200 
 // #FA7F05 
 
+import dynamic from 'next/dynamic'
 
+const ClientSideRenderedNavbar = dynamic(() => import('../components/Navbar/NavbarContainer'), { ssr: false })
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <NavbarContainer/>
+      {/* <NavbarContainer/> */}
+      <ClientSideRenderedNavbar/>
       <HeroSection/>
       <BenefitsSection/>
       <WhoIsFor/>

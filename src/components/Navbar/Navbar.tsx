@@ -5,7 +5,7 @@ import logo from '../../../public/bg-branco.png'
 export default function Navbar(){
 
     return(
-        <nav className={styles.nav}>
+        <div className={styles.nav}>
             <Image src={logo.src} alt='logo' width={110} height={30}/>
             <div className={styles.rightAlignContainer}>
             <ul className={styles.ul}>
@@ -15,6 +15,6 @@ export default function Navbar(){
             </ul>
             <button className={styles.button}>Agende uma reunião</button>
             </div>
-        </nav>
+        </div>
     )
 }

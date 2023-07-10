@@ -8,7 +8,8 @@ export default function StepByStepSection(){
     return(
         <section className={styles.stepByStepSection}>
             <h2 className={styles.sectionTitle}>O passo-a-passo da evolução do seu negócio está aqui.</h2>
-            <h3>Subtitle.</h3>
+            <h3 className={styles.sectionSubtitle}>É isso o que irá acontecer a partir de agora.</h3>
+            <div className={styles.containerPositioner}>
             <ImgTitleDescriptionLayout 
             alt='' 
             img={img1} 
@@ -36,6 +37,7 @@ export default function StepByStepSection(){
             paragraphs={
                 ['Aqui é onde a felicidade mora, o nosso passo favorito.', 
                 'Após coletarmos os dados e aprimorarmos as primeiras campanhas, poderemos saber exatamente o que fazer para multiplicar ainda mais o seu lucro e chegada de pacientes particulares.']}/>
+            </div>
         </section>
     )
 }
