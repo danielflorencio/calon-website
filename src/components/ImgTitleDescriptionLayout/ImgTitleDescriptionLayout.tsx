@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import img1 from '../../../public/img1.png'
 import styles from './styles.module.css'
 import { StaticImageData } from 'next/image'
 
