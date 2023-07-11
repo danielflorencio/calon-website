@@ -1,8 +1,8 @@
 import ImgTitleDescriptionLayout from '@/components/ImgTitleDescriptionLayout/ImgTitleDescriptionLayout'
-import Image from 'next/image'
-import img1 from '../../../public/img1.png'
-import img2 from '../../../public/img2.png'
-import img3 from '../../../public/img3.png'
+// import Image from 'next/image'
+// import img1 from '../../../public/img1.png'
+// import img2 from '../../../public/img2.png'
+// import img3 from '../../../public/img3.png'
 import styles from './styles.module.css'
 export default function StepByStepSection(){
     return(
@@ -12,7 +12,7 @@ export default function StepByStepSection(){
             <div className={styles.containerPositioner}>
             <ImgTitleDescriptionLayout 
             alt='' 
-            img={img1} 
+            img="/img1.png"
             title='Passo 1 - Consultoria gratuita.' 
             style='left-right' 
             paragraphs={
@@ -22,7 +22,7 @@ export default function StepByStepSection(){
 
             <ImgTitleDescriptionLayout 
             alt='' 
-            img={img2} 
+            img="/img2.png"
             title='Passo 2 - Execução e faturamento.' 
             style='right-left' 
             paragraphs={
@@ -31,7 +31,7 @@ export default function StepByStepSection(){
 
             <ImgTitleDescriptionLayout 
             alt='' 
-            img={img3} 
+            img="/img3.png"
             title='Passo 3 - Análise e escala.' 
             style='left-right' 
             paragraphs={

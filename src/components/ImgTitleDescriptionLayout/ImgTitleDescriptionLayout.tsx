@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import styles from './styles.module.css'
-import { StaticImageData } from 'next/image'
+// import { StaticImageData } from 'next/image'
 
 type Props = {
-    img: StaticImageData,
+    img: string,
     alt: string, 
     title: string,
     paragraphs: string[],
@@ -14,7 +14,7 @@ export default function ImgTitleDescriptionLayout({img, alt, title, style, parag
     return(
         <div className={`${styles.greaterContainer} ${style === 'left-right' ? (styles.leftRightPositioning) : (styles.rightLeftPositioning)}`}>
             <div className={styles.imgContainer}>
-               <Image src={img} alt={alt} className={styles.img}/>
+               <Image src={img} alt={alt} className={styles.img} width="300" height="300"/>
             </div>
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
