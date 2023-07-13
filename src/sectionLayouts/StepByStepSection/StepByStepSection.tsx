@@ -12,7 +12,7 @@ export default function StepByStepSection(){
             <div className={styles.containerPositioner}>
             <ImgTitleDescriptionLayout 
             alt='' 
-            img="/img1.png"
+            img="/business.svg"
             title='Passo 1 - Consultoria gratuita.' 
             style='left-right' 
             paragraphs={
@@ -22,7 +22,7 @@ export default function StepByStepSection(){
 
             <ImgTitleDescriptionLayout 
             alt='' 
-            img="/img2.png"
+            img="/analysis.svg"
             title='Passo 2 - Execução e faturamento.' 
             style='right-left' 
             paragraphs={
@@ -31,7 +31,7 @@ export default function StepByStepSection(){
 
             <ImgTitleDescriptionLayout 
             alt='' 
-            img="/img3.png"
+            img="/scale.svg"
             title='Passo 3 - Análise e escala.' 
             style='left-right' 
             paragraphs={
